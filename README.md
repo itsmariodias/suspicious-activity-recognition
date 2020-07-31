@@ -25,7 +25,7 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
   Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file  
  
 ### Testing :
-  1. First load model or use exisiting model after training.
+  1. First load model or use existing model after training.
   2. Run `predictions()` giving the video to predict as input. We have provided some sample videos in `test/`
 
 ## References :  
