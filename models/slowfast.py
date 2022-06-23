@@ -1,3 +1,28 @@
+"""
+A implementation of SlowFast Networks for Video Recognition with tf.keras 
+This code use half-period cosine schedule of learning rate decaying and warm-up strategy, 
+but I don't kown if it's the same as the paper. -- xuzheyuan624
+https://github.com/xuzheyuan624/slowfast-keras
+
+SlowFast is licensed under:
+Copyright 2019, Facebook, Inc
+
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  The ASF licenses 
+this file to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.    
+"""
+
 import numpy as np
 import keras
 from keras.layers import (Input, Activation, Conv3D, Dense, Dropout, Flatten, 

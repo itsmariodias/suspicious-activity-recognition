@@ -1,3 +1,12 @@
+"""
+Implementation of 3D Convolutional Neural Network for video 
+classification using Keras(with tensorflow as backend).
+
+Code developed by https://github.com/dipakkr
+
+Source: https://github.com/dipakkr/3d-cnn-action-recognition
+"""
+
 import numpy as np
 
 from keras.layers import (Activation, Conv3D, Dense, Dropout, Flatten,
