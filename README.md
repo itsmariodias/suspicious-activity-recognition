@@ -1,4 +1,4 @@
-# suspicious-activity-recognition
+# Suspicious Activity Recognition
 Action Recognition Model to detect Suspicious activties through Surveillance videos
 
 ### Dataset used :
