@@ -1,9 +1,8 @@
-Given code and implementation is licensed as follows:
+Implementation of I3DInception, located at models/i3dinception.py is licensed under:
 """
     MIT License
 
     Copyright (c) 2017 Ese
-    Copyright (c) 2020 Mario Dias
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
