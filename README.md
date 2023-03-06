@@ -1,5 +1,5 @@
-# Suspicious Activity Recognition
-Action Recognition Model to detect Suspicious activties through Surveillance videos
+# Suspicious Activity Recognition:
+Action Recognition Model to detect Suspicious activties through Surveillance videos. Developed for the project "Armed, Injured and other Suspicious Activity Recognition using Drone Surveillance"[^note] as part of the internship at Bennet University ([Leadingindia.ai](https://leadingindia.ai/)).
 
 ### Dataset used :
  https://www.kaggle.com/mateohervas/dcsass-dataset   
@@ -33,3 +33,5 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
 Slowfast : https://github.com/facebookresearch/SlowFast  
 Keras - Slowfast : https://github.com/xuzheyuan624/slowfast-keras  
 Keras - i3D - https://github.com/dlpbc/keras-kinetics-i3d  
+
+[^note]: This is the maintained and original repository for the mirror located [here](https://github.com/LeadingIndiaAI/Armed-Injured-and-other-Suspicious-Activity-Recognition-using-Drone-Surveillance).
