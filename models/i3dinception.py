@@ -64,7 +64,7 @@ from keras.layers import Reshape
 from keras.layers import Lambda
 from keras.layers import GlobalAveragePooling3D
 
-from keras.engine.topology import get_source_inputs
+from keras.utils.layer_utils import get_source_inputs
 from keras.utils import layer_utils
 from keras.utils.data_utils import get_file
 from keras import backend as K

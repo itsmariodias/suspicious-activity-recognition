@@ -6,11 +6,15 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
  Delete the second DCSASS Dataset folder and Labels folder
 
 ### Requirements :
-  `python3`  
-  `opencv3 (with ffmpeg)`  
-  `keras`  
-  `numpy`  
-  `pandas`  
+  `Python 3.10`  
+  `ffmpeg`
+  `opencv-python==4.6.0.66`  
+  `keras==2.8.0`  
+  `numpy==1.24.2`  
+  `pandas==1.4.1`  
+  `matplotlib==3.5.1`
+  `scikit-learn==1.0.2`
+  `tensorflow==2.8.0`
 
 ### Dataset Preprocessing :
   1. First extract the dataset folder to the same folder as the repository
@@ -22,11 +26,11 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
 ### Training :
   The `train_set.ipynb` contains all functions needed to train model. Run all cells and adjust parameters in `main()` function for training.  
   For our experiment we used slowfast model with batch size `8`, img_size `224` and frames `25`.  
-  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file  
+  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file. (if that does not work, try this https://www.mediafire.com/file/8cupxxdo9kk936c/slowfast_finalmodel.hdf5/file)  
  
 ### Testing :
   1. First load model or use existing model after training.
-  2. Run `predictions()` giving the video to predict as input. We have provided some sample videos in `test/`
+  2. Run `predictions()` giving the video to predict as input. We have provided some sample videos in `test/`. You can also directly run `prediction.py`, after manually changing input variable paths.
 
 ## References :  
 3DCNN : https://github.com/dipakkr/3d-cnn-action-recognition   
