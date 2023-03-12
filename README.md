@@ -7,7 +7,7 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
 
 ### Requirements :
   `Python 3.10`  
-  `ffmpeg`
+  `ffmpeg`  
   `opencv-python==4.6.0.66`  
   `keras==2.8.0`  
   `numpy==1.24.2`  
@@ -26,7 +26,7 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
 ### Training :
   The `train_set.ipynb` contains all functions needed to train model. Run all cells and adjust parameters in `main()` function for training.  
   For our experiment we used slowfast model with batch size `8`, img_size `224` and frames `25`.  
-  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file. (if that does not work, try this https://www.mediafire.com/file/8cupxxdo9kk936c/slowfast_finalmodel.hdf5/file)  
+  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/8cupxxdo9kk936c/slowfast_finalmodel.hdf5/file.
  
 ### Testing :
   1. First load model or use existing model after training.
