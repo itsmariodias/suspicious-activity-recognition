@@ -6,15 +6,17 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
  Delete the second DCSASS Dataset folder and Labels folder
 
 ### Requirements :
-  `Python 3.10`  
-  `ffmpeg`  
-  `opencv-python==4.6.0.66`  
-  `keras==2.8.0`  
-  `numpy==1.24.2`  
-  `pandas==1.4.1`  
-  `matplotlib==3.5.1`
-  `scikit-learn==1.0.2`
-  `tensorflow==2.8.0`
+```
+Python 3.10  
+ffmpeg  
+opencv-python==4.6.0.66  
+keras==2.8.0  
+numpy==1.24.2  
+pandas==1.4.1  
+matplotlib==3.5.1  
+scikit-learn==1.0.2  
+tensorflow==2.8.0  
+```
 
 ### Dataset Preprocessing :
   1. First extract the dataset folder to the same folder as the repository
