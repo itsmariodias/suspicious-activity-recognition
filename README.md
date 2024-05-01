@@ -1,5 +1,5 @@
 # Suspicious Activity Recognition
-Action Recognition Model to detect Suspicious activties through Surveillance videos. Developed for the project "Armed, Injured and other Suspicious Activity Recognition using Drone Surveillance"[^note] as part of the internship at Bennet University ([Leadingindia.ai](https://leadingindia.ai/)).
+Action Recognition Model to detect Suspicious activities through Surveillance videos. Developed for the project "Armed, Injured and other Suspicious Activity Recognition using Drone Surveillance"[^note] as part of the internship at Bennet University ([Leadingindia.ai](https://leadingindia.ai/)).
 
 ### Dataset used :
  https://www.kaggle.com/mateohervas/dcsass-dataset   
